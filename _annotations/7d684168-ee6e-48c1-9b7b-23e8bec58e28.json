@@ -4,16 +4,14 @@ order: 5
 ---
 {
     "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "7d684168-ee6e-48c1-9b7b-23e8bec58e28.json",
     "@type": "oa:Annotation",
     "motivation": [
         "oa:commenting"
     ],
-    "resource": [
-        {
-            "@type": "dctypes:Text",
-            "format": "text/html",
-            "chars": "<p>https://westerkerkenkhuizen.nl/</p>"
-        }
+    "oa:annotatedAt": "2024-11-27T10:32:06.848Z",
+    "oa:annotatedBy": [
+        "robfeen"
     ],
     "on": [
         {
@@ -27,7 +25,7 @@ order: 5
                 },
                 "item": {
                     "@type": "oa:SvgSelector",
-                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1159.63636,672.54545h53.72727v0h53.72727v31.45455v31.45455h-53.72727h-53.72727v-31.45455z\"  id=\"rectangle_fa3aa4e7-dc9c-4938-90c8-0284c8371a07\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#ff00ff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1159.63636,672.54545h53.72727v0h53.72727v31.45455v31.45455h-53.72727h-53.72727v-31.45455z\"  id=\"rectangle_fa3aa4e7-dc9c-4938-90c8-0284c8371a07\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#ff00ff\" stroke-width=\"5.45455\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                 }
             },
             "within": {
@@ -36,9 +34,12 @@ order: 5
             }
         }
     ],
-    "oa:annotatedAt": "2024-11-27T10:32:06.848Z",
-    "@id": "7d684168-ee6e-48c1-9b7b-23e8bec58e28.json",
-    "oa:annotatedBy": [
-        "robfeen"
-    ]
+    "resource": [
+        {
+            "@type": "dctypes:Text",
+            "chars": "<p>https://westerkerkenkhuizen.nl/</p>",
+            "format": "text/html"
+        }
+    ],
+    "oa:serializedAt": "2024-11-27T10:32:25.241Z"
 }
