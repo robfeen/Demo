@@ -7,13 +7,14 @@ order: 2
     "@id": "e645b7ec-288a-4606-9a77-e4d37b2793a2.json",
     "@type": "oa:Annotation",
     "motivation": [
-        "oa:commenting"
+        "oa:commenting",
+        "oa:tagging"
     ],
     "oa:annotatedAt": "2024-11-27T10:21:46.413Z",
     "oa:annotatedBy": [
         "robfeen"
     ],
-    "oa:serializedAt": "2024-11-27T10:41:10.228Z",
+    "oa:serializedAt": "2024-11-27T10:54:00.134Z",
     "on": [
         {
             "@type": "oa:SpecificResource",
@@ -26,7 +27,7 @@ order: 2
                 },
                 "item": {
                     "@type": "oa:SvgSelector",
-                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M493.21969,565.13499c0,-3.0303 1.51515,-6.06061 4.54545,-9.09091c0,-2.51039 -2.03507,-4.54545 -4.54545,-4.54545c-2.51039,0 -4.54545,2.03507 -4.54545,4.54545c3.0303,3.0303 4.54545,6.06061 4.54545,9.09091z\"  id=\"pin_8f604f7c-8e70-493f-946c-b229c766da9d\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"5.45455\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M493.21969,565.13499c0,-3.0303 1.51515,-6.06061 4.54545,-9.09091c0,-2.51039 -2.03507,-4.54545 -4.54545,-4.54545c-2.51039,0 -4.54545,2.03507 -4.54545,4.54545c3.0303,3.0303 4.54545,6.06061 4.54545,9.09091z\"  id=\"pin_8f604f7c-8e70-493f-946c-b229c766da9d\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"10.90909\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                 }
             },
             "within": {
@@ -40,6 +41,10 @@ order: 2
             "@type": "dctypes:Text",
             "chars": "<p>Keten Poort.Deze poort heet nu de Koepoort.</p>",
             "format": "text/html"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Uitleg"
         }
     ]
 }
