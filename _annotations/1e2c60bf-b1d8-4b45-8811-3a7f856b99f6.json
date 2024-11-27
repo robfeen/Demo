@@ -7,12 +7,14 @@ order: 7
     "@id": "1e2c60bf-b1d8-4b45-8811-3a7f856b99f6.json",
     "@type": "oa:Annotation",
     "motivation": [
-        "oa:commenting"
+        "oa:commenting",
+        "oa:tagging"
     ],
     "oa:annotatedAt": "2024-11-27T10:46:09.368Z",
     "oa:annotatedBy": [
         "robfeen"
     ],
+    "oa:serializedAt": "2024-11-27T10:52:55.171Z",
     "on": [
         {
             "@type": "oa:SpecificResource",
@@ -39,7 +41,10 @@ order: 7
             "@type": "dctypes:Text",
             "chars": "<p><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Westerkerk_Enkhuizen_Zuidkant_20081227.jpg/260px-Westerkerk_Enkhuizen_Zuidkant_20081227.jpg\" alt=\"Westerkern\" width=\"260\" height=\"231\" /></p>",
             "format": "text/html"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Afbeelding"
         }
-    ],
-    "oa:serializedAt": "2024-11-27T10:52:12.329Z"
+    ]
 }
