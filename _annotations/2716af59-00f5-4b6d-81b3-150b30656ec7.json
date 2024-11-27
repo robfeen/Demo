@@ -1,0 +1,49 @@
+---
+canvas: "https://robfeen.github.io/Demo/canvas/img/derivatives/iiif/enkhuizen/Veelwaard.json"
+order: 8
+---
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "oa:Annotation",
+    "motivation": [
+        "oa:tagging",
+        "oa:commenting"
+    ],
+    "resource": [
+        {
+            "@type": "oa:Tag",
+            "chars": "uitleg"
+        },
+        {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<p>Merk op dat de noord-zuid-richting niet precies van boven naar beneden loopt</p>"
+        }
+    ],
+    "on": [
+        {
+            "@type": "oa:SpecificResource",
+            "full": "https://robfeen.github.io/Demo/canvas/img/derivatives/iiif/enkhuizen/Veelwaard.json",
+            "selector": {
+                "@type": "oa:Choice",
+                "default": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=1885,1031,288,274"
+                },
+                "item": {
+                    "@type": "oa:SvgSelector",
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2009.81818,1036.67133l-124.54545,180l136.36364,88.18182l137.27273,-66.36364l14.54545,-168.18182l-162.72727,-38.18182l-2.72727,-0.90909v0\"  id=\"rough_path_0ca26f60-5b60-409a-b121-8218cdf135d8\" fill=\"none\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                }
+            },
+            "within": {
+                "@id": "https://robfeen.github.io/Demo/img/derivatives/iiif/enkhuizen/manifest.json",
+                "@type": "sc:Manifest"
+            }
+        }
+    ],
+    "oa:annotatedAt": "2024-11-27T13:10:55.259Z",
+    "@id": "2716af59-00f5-4b6d-81b3-150b30656ec7.json",
+    "oa:annotatedBy": [
+        "robfeen"
+    ]
+}
