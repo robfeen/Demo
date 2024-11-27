@@ -4,16 +4,15 @@ order: 3
 ---
 {
     "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "6d712f74-1dfd-460d-b7c3-389969089149.json",
     "@type": "oa:Annotation",
     "motivation": [
-        "oa:commenting"
+        "oa:commenting",
+        "oa:tagging"
     ],
-    "resource": [
-        {
-            "@type": "dctypes:Text",
-            "format": "text/html",
-            "chars": "<p>D. Veelwaard Junior Sculp.</p>"
-        }
+    "oa:annotatedAt": "2024-11-27T10:24:02.066Z",
+    "oa:annotatedBy": [
+        "robfeen"
     ],
     "on": [
         {
@@ -27,7 +26,7 @@ order: 3
                 },
                 "item": {
                     "@type": "oa:SvgSelector",
-                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1739.63636,1394.36364h236v0h236v24.18182v24.18182h-236h-236v-24.18182z\"  id=\"rectangle_43af25d6-30c2-4bd3-b22c-d2df119e438b\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#ff0000\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1739.63636,1394.36364h236v0h236v24.18182v24.18182h-236h-236v-24.18182z\"  id=\"rectangle_43af25d6-30c2-4bd3-b22c-d2df119e438b\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#ff0000\" stroke-width=\"5.45455\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                 }
             },
             "within": {
@@ -36,9 +35,16 @@ order: 3
             }
         }
     ],
-    "oa:annotatedAt": "2024-11-27T10:24:02.066Z",
-    "@id": "6d712f74-1dfd-460d-b7c3-389969089149.json",
-    "oa:annotatedBy": [
-        "robfeen"
-    ]
+    "resource": [
+        {
+            "@type": "dctypes:Text",
+            "chars": "<p>D. Veelwaard Junior Sculp.</p>",
+            "format": "text/html"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Transcriptie"
+        }
+    ],
+    "oa:serializedAt": "2024-11-27T13:09:31.089Z"
 }
