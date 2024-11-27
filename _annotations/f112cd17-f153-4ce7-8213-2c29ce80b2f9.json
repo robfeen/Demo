@@ -1,0 +1,44 @@
+---
+canvas: "https://robfeen.github.io/Demo/canvas/img/derivatives/iiif/enkhuizen/Veelwaard.json"
+order: 6
+---
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "oa:Annotation",
+    "motivation": [
+        "oa:commenting"
+    ],
+    "resource": [
+        {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<p>De gracht aan de Wortelmarkt is inmiddels gedempt</p>"
+        }
+    ],
+    "on": [
+        {
+            "@type": "oa:SpecificResource",
+            "full": "https://robfeen.github.io/Demo/canvas/img/derivatives/iiif/enkhuizen/Veelwaard.json",
+            "selector": {
+                "@type": "oa:Choice",
+                "default": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=1439,634,101,101"
+                },
+                "item": {
+                    "@type": "oa:SvgSelector",
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1454.41888,727.46396c0,6.25164 -13.96624,-0.87005 -14.17556,-1.28869c-0.68515,-1.3703 -2.00825,-24.33462 -1.28869,-25.77375c0.93827,-1.87654 6.44344,-4.83615 6.44344,-6.44344c0,-1.71825 -3.6179,0.76842 -5.15475,0c-0.38421,-0.19211 0,-0.85912 0,-1.28869c0,-5.11734 2.80942,-12.06227 5.15475,-16.75293c3.61715,-7.2343 14.90262,-9.18624 16.75293,-12.88687c1.672,-3.34401 9.424,-6.00069 12.88687,-7.73212c0.6529,-0.32645 3.66108,-4.15897 5.15475,-5.15475c15.21991,-10.14661 41.51807,-24.20498 56.70224,-9.02081c9.45777,9.45777 -5.27796,13.1333 -9.02081,20.619c-1.75883,3.51767 1.2254,7.82705 -1.28869,11.59819c-2.78992,4.18489 -4.70322,4.28464 -9.02081,6.44344c-1.21499,0.60749 -5.22446,1.28869 -3.86606,1.28869c6.12215,0 -2.07189,7.47938 -5.15475,9.02081c-8.35127,4.17564 -18.48119,11.81797 -28.35112,16.75293c-2.07642,1.03821 -5.53533,4.24664 -6.44344,5.15475c-1.56115,1.56115 3.95329,-0.26168 2.57737,3.86606c-0.40603,1.21809 -4.59756,5.71194 -2.57737,7.73212c0.3738,0.3738 7.60036,0.13177 3.86606,3.86606c-5.08305,5.08305 -14.39826,7.73212 -21.90768,7.73212c-2.06539,0 -7.73212,1.14052 -7.73212,-1.28869\"  id=\"smooth_path_1711fda0-8187-419b-9949-619bd13099ad\" fill=\"none\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                }
+            },
+            "within": {
+                "@id": "https://robfeen.github.io/Demo/img/derivatives/iiif/enkhuizen/manifest.json",
+                "@type": "sc:Manifest"
+            }
+        }
+    ],
+    "oa:annotatedAt": "2024-11-27T10:40:26.769Z",
+    "@id": "f112cd17-f153-4ce7-8213-2c29ce80b2f9.json",
+    "oa:annotatedBy": [
+        "robfeen"
+    ]
+}
