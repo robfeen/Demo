@@ -1,0 +1,14 @@
+---
+---
+{
+    "label": "Viewer",
+    "type": "storyboardlist",
+    "items": [
+        {
+            "board": "<iiif-annotation annotationurl='https://robfeen.github.io/Demo/annotations/veelwaard-list.json'></iiif-annotation>",
+            "title": "Uitleg",
+            "description": "Testje",
+            "thumbnail": ""
+        }
+    ]
+}
