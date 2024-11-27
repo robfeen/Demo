@@ -1,0 +1,48 @@
+---
+added: 2024-11-27 10&#58;13&#58;18.277301
+thumbnail: https://robfeen.github.io/Demo/img/derivatives/iiif/enkhuizen/Veelwaard/full/144,/0/default.jpg
+title: Enkhuizen
+user: robfeen
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://robfeen.github.io/Demo/img/derivatives/iiif/enkhuizen/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Enkhuizen",
+  "viewingDirection": "left-to-right",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://robfeen.github.io/Demo/canvas/img/derivatives/iiif/enkhuizen/Veelwaard.json",
+          "@type": "sc:Canvas",
+          "label": "Veelwaard",
+          "thumbnail": "https://robfeen.github.io/Demo/img/derivatives/iiif/enkhuizen/Veelwaard/full/144,/0/default.jpg",
+          "height": 2810,
+          "width": 2298,
+          "images": [
+            {
+              "@id": "https://robfeen.github.io/Demo/img/derivatives/iiif/enkhuizen/Veelwaard/annotation/1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://robfeen.github.io/Demo/img/derivatives/iiif/enkhuizen/Veelwaard/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2810,
+                "width": 2298,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://robfeen.github.io/Demo/img/derivatives/iiif/enkhuizen/Veelwaard",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://robfeen.github.io/Demo/canvas/img/derivatives/iiif/enkhuizen/Veelwaard.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
