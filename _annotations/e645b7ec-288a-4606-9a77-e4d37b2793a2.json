@@ -13,6 +13,7 @@ order: 2
     "oa:annotatedBy": [
         "robfeen"
     ],
+    "oa:serializedAt": "2024-11-27T10:41:10.228Z",
     "on": [
         {
             "@type": "oa:SpecificResource",
@@ -40,6 +41,5 @@ order: 2
             "chars": "<p>Keten Poort.Deze poort heet nu de Koepoort.</p>",
             "format": "text/html"
         }
-    ],
-    "oa:serializedAt": "2024-11-27T10:22:14.184Z"
+    ]
 }
