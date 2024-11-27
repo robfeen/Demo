@@ -7,12 +7,14 @@ order: 4
     "@id": "dcb01a32-9f6c-4781-ac4a-48b881b05b3e.json",
     "@type": "oa:Annotation",
     "motivation": [
-        "oa:commenting"
+        "oa:commenting",
+        "oa:tagging"
     ],
     "oa:annotatedAt": "2024-11-27T10:28:06.690Z",
     "oa:annotatedBy": [
         "robfeen"
     ],
+    "oa:serializedAt": "2024-11-27T10:54:14.160Z",
     "on": [
         {
             "@type": "oa:SpecificResource",
@@ -25,7 +27,7 @@ order: 4
                 },
                 "item": {
                     "@type": "oa:SvgSelector",
-                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1486.10478,1159.08632c-9.16979,3.95737 -22.10525,6.90428 -35.1034,6.90076v0v0c-12.99815,-0.00352 -24.32172,-2.76031 -35.1034,-6.90076c-10.78168,-4.14045 -14.97239,-10.44969 -14.54031,-16.65991c0.43208,-6.21022 5.48694,-12.32142 14.54031,-16.65991c9.05337,-4.33849 22.10525,-6.90428 35.1034,-6.90076c12.99815,0.00352 25.94257,2.57635 35.1034,6.90076c9.16083,4.32441 14.53807,10.4004 14.54031,16.65991c0.00224,6.25951 -5.37052,12.70254 -14.54031,16.65991z\"  id=\"ellipse_6dc89a8a-703f-4924-b239-92eb1e488981\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"5.45455\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1486.10478,1159.08632c-9.16979,3.95737 -22.10525,6.90428 -35.1034,6.90076v0v0c-12.99815,-0.00352 -24.32172,-2.76031 -35.1034,-6.90076c-10.78168,-4.14045 -14.97239,-10.44969 -14.54031,-16.65991c0.43208,-6.21022 5.48694,-12.32142 14.54031,-16.65991c9.05337,-4.33849 22.10525,-6.90428 35.1034,-6.90076c12.99815,0.00352 25.94257,2.57635 35.1034,6.90076c9.16083,4.32441 14.53807,10.4004 14.54031,16.65991c0.00224,6.25951 -5.37052,12.70254 -14.54031,16.65991z\"  id=\"ellipse_6dc89a8a-703f-4924-b239-92eb1e488981\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"10.90909\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                 }
             },
             "within": {
@@ -39,7 +41,10 @@ order: 4
             "@type": "dctypes:Text",
             "chars": "<p>4= Wilgenburg en E= Zuiderpoort. Het gaat hier echter om &eacute;&eacute;n bouwwerk, dat tegenwoordig de Drommedaris wordt genoemd</p>",
             "format": "text/html"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Uitleg"
         }
-    ],
-    "oa:serializedAt": "2024-11-27T10:40:58.960Z"
+    ]
 }
