@@ -1,0 +1,49 @@
+---
+canvas: "https://robfeen.github.io/Demo/canvas/img/derivatives/iiif/enkhuizen/Veelwaard.json"
+order: 6
+---
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "oa:Annotation",
+    "motivation": [
+        "oa:tagging",
+        "oa:commenting"
+    ],
+    "resource": [
+        {
+            "@type": "oa:Tag",
+            "chars": "Verwijzing"
+        },
+        {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<p><a title=\"Zuiderkerk\" href=\"https://nl.wikipedia.org/wiki/Zuiderkerk_(Enkhuizen)\" target=\"_blank\" rel=\"noopener\">Zuiderkerk</a></p>"
+        }
+    ],
+    "on": [
+        {
+            "@type": "oa:SpecificResource",
+            "full": "https://robfeen.github.io/Demo/canvas/img/derivatives/iiif/enkhuizen/Veelwaard.json",
+            "selector": {
+                "@type": "oa:Choice",
+                "default": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=1492,818,104,75"
+                },
+                "item": {
+                    "@type": "oa:SvgSelector",
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1491.95551,818.22684h52.10452v0h52.10452v37.50323v37.50323h-52.10452h-52.10452v-37.50323z\"  id=\"rectangle_e63008d7-933a-4ef9-bd8a-be74602dffa9\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#ff00ff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                }
+            },
+            "within": {
+                "@id": "https://robfeen.github.io/Demo/img/derivatives/iiif/enkhuizen/manifest.json",
+                "@type": "sc:Manifest"
+            }
+        }
+    ],
+    "oa:annotatedAt": "2024-11-27T10:36:28.161Z",
+    "@id": "a279d31a-becd-420a-98a8-a951ae769031.json",
+    "oa:annotatedBy": [
+        "robfeen"
+    ]
+}
